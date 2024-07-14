@@ -49,6 +49,13 @@ Installed the unitree4d radar SDK and driver in my VM and configured the interfa
 ![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/cartographer%20in%20autolabor3.jpg)<br><br>
 ![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/cartographer%20in%20autolabor4.jpg)<br><br>
 7.10 Manually calibrate the TF coordinates of the Lidar and the camera, and combine the depth camera information to overlay the two maps.<br><br>
+![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/Manually%20calibrate.jpg)<br><br>
+![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/Manually%20calibrate1.jpg)<br><br>
+![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/Manually%20calibrate2.jpg)<br><br>
+![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/Manually%20calibrate3.jpg)<br><br>
+![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/Manually%20calibrate4.jpg)<br><br>
+![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/Manually%20calibrate5.jpg)<br><br>
+![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/Manually%20calibrate6.jpg)<br><br>
 7.11 Install the lidar driver and camera driver on the host machine of autolabor.<br>
 7.11 Convert the 4*4 rotation matrix to rpy Euler angles for outer parameter setup.<br><br>
 7.12 Reuse inverse matrix for rpy angles. Connect the lidar and depth camera online and run cartographer to locate and build the map.<br><br>
