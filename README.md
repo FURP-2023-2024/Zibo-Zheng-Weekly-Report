@@ -19,12 +19,12 @@
 1. Finish the final model build of lidar holder.
 2. Advanced study of ROS:
    <1>Understand and experience the Navigation system, move_base node, global planning, and AMCL positioning algorithm.
-      Understand the meaning of Costmap and parameterize the Costmap.
-      Understand the recovery behavior and parameterize the recovery behavior.
+   Understand the meaning of Costmap and parameterize the Costmap.
+   Understand the recovery behavior and parameterize the recovery behavior.
 
    <2>Understand local planners including DWA planner and TEB planner and Action programming interface for navigation.
-      Write nav_client node using c++ and python and combine it with move_base for coordinate navigation.
-      Integrate and launch the waypoint navigation plugin waterplus_map_tools and write wp_node in c++ and python to implement the functionality to publish navigation points with wp_navi_server and receive navigation results.
+   Write nav_client node using c++ and python and combine it with move_base for coordinate navigation.
+   Integrate and launch the waypoint navigation plugin waterplus_map_tools and write wp_node in c++ and python to implement the functionality to publish navigation points with wp_navi_server and receive navigation results.
 
    <3>Learn about the camera topic in ROS and use c++ to acquire camera images.
-   These packages can be found in:
+These packages can be found in:
