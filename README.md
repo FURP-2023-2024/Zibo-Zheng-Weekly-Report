@@ -43,6 +43,11 @@ Installed the unitree4d radar SDK and driver in my VM and configured the interfa
 ### Week 5     
 #### 7.8-7.14
 7.9 Learn how to run functional packages such as cartographer and 3D point cloud maps to 2D maps in autolabor's mainframe (for testing offline map building and positioning)<br><br>
+![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/cartographer%20in%20autolabor.jpg)<br><br>
+![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/cartographer%20in%20autolabor1.jpg)<br><br>
+![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/cartographer%20in%20autolabor2.jpg)<br><br>
+![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/cartographer%20in%20autolabor3.jpg)<br><br>
+![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/cartographer%20in%20autolabor4.jpg)<br><br>
 7.10 Manually calibrate the TF coordinates of the Lidar and the camera, and combine the depth camera information to overlay the two maps.<br><br>
 7.11 Install the lidar driver and camera driver on the host machine of autolabor.<br>
 7.11 Convert the 4*4 rotation matrix to rpy Euler angles for outer parameter setup.<br><br>
