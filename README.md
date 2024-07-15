@@ -6,23 +6,27 @@
 1. Find lidar models and sizes. Completed initial model of holder with 4d lidar and millimeter wave lidar.<br>
   ![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Holder1.png)
 
-2. Install ubuntu 20.04 system (neotic) in a virtual machine and install ROS in it. <br>Install vscode and configure the compilation environment. <br>Install basic packages like rqt rviz gazebo etc.<br>
+2. Install ubuntu 20.04 system (neotic) in a virtual machine and install ROS in it. <br>
+Install vscode and configure the compilation environment. <br>
+Install basic packages like rqt rviz gazebo etc.<br>
 
 ### Week 2     
 #### 6.17-6.23
 1. Update the version of Solidworks to 2024 so that we can receive the initial 4D lidar holder from project manager.<br>
 
 2. Finished an advance model of holder with 4d lidar and millimeter wave lidar and connect it to the whole model of car and the aluminum profiles.<br>
-
+   https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/tree/main/Holder%202<br>
+   
 3. Completing the initial study of ROS:<br>
       Learning the communication relationship between node and package and between packages and creating a node and package that can post topics to receive topics.<br>
       Utilizing c++ and python to implement functional nodes respectively.<br>
       Write some functional nodes such as implement robot motion control node, LIDAR data acquisition node (rviz observation radar data), LIDAR obstacle avoidance node, IMU data acquisition node, IMU heading lock node, etc.<br>
       These packages can be found in:<br>
-
+https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week2_pkgs.zip<br>
 ### Week 3     
 #### 6.24-6.30
 1. Finish the final model build of lidar holder.<br>
+   https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/tree/main/Holder%20Final<br>
 2. Advanced study of ROS:<br>
    <1>Understand and experience the Navigation system, move_base node, global planning, and AMCL positioning algorithm.<br>
      Understand the meaning of Costmap and parameterize the Costmap.<br>
@@ -34,6 +38,7 @@
 
    <3>Learn about the camera topic in ROS and use c++ to acquire camera images.<br>
    These packages can be found in:<br>
+   https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week3_pkgs.zip<br>
 
 ### Week 4     
 #### 7.1-7.7
