@@ -43,7 +43,7 @@ https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week2_pkgs.zip<br>
 ### Week 4     
 #### 7.1-7.7
 Installed the unitree4d radar SDK and driver in my VM and configured the interface with the topic name so that the lidar point cloud of the actual environment could be successfully displayed in rviz.<br>
-  ![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Pointcloud%20for%20unitree%20lidar.png)
+  ![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Pointcloud%20for%20unitree%20lidar.png)<br>
 
 ### Week 5     
 #### 7.8-7.14
@@ -70,3 +70,7 @@ Installed the unitree4d radar SDK and driver in my VM and configured the interfa
 7.14 Install autolabor control on the main machine of autolabor and download movebase to write the launch file and configure the global planner local planner and other parameters. Make autolabor can basically realize point-to-point navigation.<br><br>
 ![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/autolabor1.jpg)<br><br>
 ![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week5%20file/SLAM%20in%20autolabor.jpg)<br><br>
+
+### Week 6
+#### 7.15-7.21
+7.15 
