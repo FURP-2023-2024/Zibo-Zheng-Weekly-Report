@@ -86,5 +86,9 @@ Tuning point-to-point navigation.<br>
 ![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/move_base%20parameter1.jpg)<br><br>
 ![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/move_base%20parameter2.jpg)<br><br>
 7.16<br>
+Complete the static conversion of radar and camera tf, convert the camera point cloud to map tf for observation (for image recognition matching) and record the point cloud package.<br>
+Write a navigation package that communicates with move_base to publish navigation points and receive navigation results.<br>
+In the navigation package to realize the real-time reading and updating of navigation points in txt.<br>
+Codes can be found in:<br>
 https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/Read%20txt%20with%20nav_client.cpp<br>
 https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/Read%20txt%20without%20nav_client.cpp<br>
