@@ -85,3 +85,6 @@ Configuration of vehicle shape parameters, target point toerance and expansion. 
 Tuning point-to-point navigation.<br>
 ![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/move_base%20parameter1.jpg)<br><br>
 ![](https://github.com/ZEbirds/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/move_base%20parameter2.jpg)<br><br>
+7.16<br>
+https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/Read%20txt%20with%20nav_client.cpp<br>
+https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/Read%20txt%20without%20nav_client.cpp<br>
