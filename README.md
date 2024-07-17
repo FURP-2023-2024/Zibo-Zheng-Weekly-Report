@@ -93,3 +93,8 @@ Codes can be found in:<br>
 https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/nav_client.cpp<br>
 https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/Read%20txt%20with%20nav_client.cpp<br>
 https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/Read%20txt%20without%20nav_client.cpp<br><br>
+7.17<br>
+Navigation point sending and receiving between different robots over the same LAN. <br>
+Implementation of autolabor to send target navigation points to saite.<br><br>
+The http send and receive functionality package can be found below<br>
+https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/httpROS.zip<br><br>
