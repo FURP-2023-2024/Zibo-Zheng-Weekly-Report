@@ -99,7 +99,9 @@ Implementation of autolabor to send target navigation points to saite.<br><br>
 The http send and receive functionality package can be found below<br>
 https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/httpROS.zip<br><br>
 7.18<br>
-Install conceptgraph and maskcluster and improve the algorithm (change the strategy to increase its robustness)<br><br>
+Install conceptgraph and maskcluster and improve the algorithm (change the strategy to increase its robustness)<br>
+The main code can be found in:<br><br>
+https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/process_pc_new_front-sim-real_first_floor.py<br><br>
 Tuning the txt communication between maskcluster and nav_client and transferring navigation points.<br><br>
 Write speed publish node to make the car rotate while travelling to the target point to store pictures of the surroundings. And publish topics to communicate with rosbagsaver to make it store photos. These photos will be compared or updated to the map when the target point is reached.<br><br>
 ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/READ%20ME.jpg)<br><br>
