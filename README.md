@@ -98,3 +98,17 @@ Navigation point sending and receiving between different robots over the same WL
 Implementation of autolabor to send target navigation points to saite.<br><br>
 The http send and receive functionality package can be found below<br>
 https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week6%20file/httpROS.zip<br><br>
+7.18<br>
+Install conceptgraph and maskcluster and improve the algorithm (change the strategy to increase its robustness)<br><br>
+Tuning the txt communication between maskcluster and nav_client and transferring navigation points.<br><br>
+Write speed publish node to make the car rotate while travelling to the target point to store pictures of the surroundings. And publish topics to communicate with rosbagsaver to make it store photos. These photos will be compared or updated to the map when the target point is reached.<br><br>
+7.19<br>
+Adjusting rotation speed to publish nodes and store photos<br><br>
+Write navigation node and front end detection update object node using txt to communicate with robustnav and inform that both navigation and front end detection (using cv) are complete.The effect is as follows:<br>
+Tuning through robustnav to detect plants in offline map and send navigation points to go to. It can be shown in the video below:<br>
+
+7.21<br>
+Replace the code for real-time detection with navigation to the target point completed and then front-end detect all the images together and change the import so that it communicates properly with maskcluster and nav_client<br><br>
+The communication starts from when maskcluster releases the location of the target object searched from the offline map to navigating to the target location to cvmarking the pictures taken during the journey and updating the offline map, determining whether there is an object at the arrival location, and if there is not, then searching for the target object in the updated map and releasing the next target location. This process is shown in the figure below<br>
+
+The problem is not solved yet as shown in the figure below<br>
