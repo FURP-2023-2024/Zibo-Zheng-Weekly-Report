@@ -141,6 +141,7 @@ Add the rotation node to record a demo.<br>
 Try to record a demo of moving a target multiple times for target finding.<br><br>
 Write a node that rotates multiple times (not yet in use)<br><br>
 7.25<br>
+Re-capture the camera map.<br><br>
 Record two demos of books in different positions (with rotating observation update environment)<br><br>
 Add rosbagsaver's self-restart mechanism so that each mission ends by clearing the photos and retaking them.<br><br>
 7.26<br>
