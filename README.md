@@ -141,9 +141,14 @@ Add the rotation node to record a demo.<br>
 Try to record a demo of moving a target multiple times for target finding.<br><br>
 Write a node that rotates multiple times (not yet in use)<br><br>
 7.25<br>
-Re-capture the camera map.<br><br>
+Re-capture the camera map.<br>
+![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week7%20file/camera%20map.jpg)<br><br>
 Record two demos of books in different positions (with rotating observation update environment)<br><br>
-Add rosbagsaver's self-restart mechanism so that each mission ends by clearing the photos and retaking them.<br><br>
+Add rosbagsaver's self-restart mechanism so that each mission ends by clearing the photos and retaking them.<br>
+Code can be found in https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week7%20file/imagetime_copy.cpp<br><br>
 7.26<br>
-Record the demo of the book for three tasks (multiple tasks) (with rotational observation to update the environment)<br><br>
+Record the demo of the book for three tasks (multiple tasks) (with rotational observation to update the environment)<br>
+The vedio can be found in https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week7%20file/demo%20video2.mp4<br><br>
 Modify the semantic judgement of bearer.<br><br>
+![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week7%20file/semantic%20judgement%20of%20bearer%201.jpg)<br><br>
+![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week7%20file/semantic%20judgement%20of%20bearer%202.jpg)<br><br>
