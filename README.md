@@ -135,8 +135,14 @@ Recorded further demos at different locations<br>
 Video can be found in:<br>
 https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week7%20file/demo%20video1.mp4<br><br>
 Wrote a restart mechanism for maskcluster (front-end detection) so that it doesn't blow up memory the second time it runs.<br><br>
-7.24.<br>
+7.24<br>
 Consider obstacle avoidance based on rotating nodes (rotating on the road and taking pictures with the camera to update the objects in the environment), by reading radar point clouds (pcl version is not compatible).<br><br>
 Add the rotation node to record a demo.<br>
 Try to record a demo of moving a target multiple times for target finding.<br><br>
 Write a node that rotates multiple times (not yet in use)<br><br>
+7.25<br>
+Record two demos of books in different positions (with rotating observation update environment)<br><br>
+Add rosbagsaver's self-restart mechanism so that each mission ends by clearing the photos and retaking them.<br><br>
+7.26<br>
+Record the demo of the book for three tasks (multiple tasks) (with rotational observation to update the environment)<br><br>
+Modify the semantic judgement of bearer.<br><br>
