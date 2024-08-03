@@ -165,14 +165,17 @@ Converting the actual point cloud bag from bit campus to bin file<br><br>
 7.30-8.1<br>
 Cylinder 3d model point cloud segmentation out of the label file and manipulate it with open3d visualisation (untrained model works poorly)<br><br>
 Tried many point cloud segmentation networks like lidar-bonnetal, sphereformer, rangenet++, uniseg, cylinder3d, uniseg, cylinder3d, etc. (as below), none of them meet the demand.<br><br>
-
+![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week8/segnet.jpg)<br><br>
 8.2<br>
 Convert the idea of trying to use the camera image segmentation and then mapped to the radar to achieve the radar point cloud segmentation (the camera view is limited and the point cloud is sparse).<br><br>
 Eventually use the manual segmentation point cloud tool semantic-segmentation-editor to manually segment the point cloud<br>
+![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week8/sse1.jpg)<br>
 Write a python program to convert .bag to the desired .pcd format.<br>
 Write python program to convert the processed pcd to .bin and .label files.<br>
 Write scripts to visualise point clouds based on open3d.<br>
+![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week8/sse-visualize.jpg)<br>
 Write a python program to automatically align the timestamps of the bag and pose information, and filter out the frames needed for loopback detection.<br>
+This py files can be found in https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week8/<br><br>
 You can contact me for the specific packet<br><br>
 8.3<br>
 Manual segmentation of a 50-frame radar point cloud<br><br>
