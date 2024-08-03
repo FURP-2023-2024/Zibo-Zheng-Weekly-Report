@@ -152,3 +152,27 @@ The vedio can be found in https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Re
 Modify the semantic judgement of bearer.<br><br>
 ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week7%20file/semantic%20judgement%20of%20bearer%201.jpg)<br><br>
 ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week7%20file/semantic%20judgement%20of%20bearer%202.jpg)<br><br>
+7.28<br>
+Edit previously recorded demo video of first view third view fixed camera position<br><br>
+
+### Week 8     
+#### 7.29-8.4
+7.29<br>
+Cut demo video<br><br>
+Begin to reproduce and validate loopback detection: there are three main steps, the first step is semantic segmentation of the laser point cloud, the second step is to add instance clustering, and the third step is to use the algorithm developed by the senior for loopback detection.<br><br>
+Converting the actual point cloud bag from bit campus to bin file<br><br>
+
+7.30-8.1<br>
+Cylinder 3d model point cloud segmentation out of the label file and manipulate it with open3d visualisation (untrained model works poorly)<br><br>
+Tried many point cloud segmentation networks like lidar-bonnetal, sphereformer, rangenet++, uniseg, cylinder3d, uniseg, cylinder3d, etc. (as below), none of them meet the demand.<br><br>
+
+8.2<br>
+Convert the idea of trying to use the camera image segmentation and then mapped to the radar to achieve the radar point cloud segmentation (the camera view is limited and the point cloud is sparse).<br><br>
+Eventually use the manual segmentation point cloud tool semantic-segmentation-editor to manually segment the point cloud<br>
+Write a python program to convert .bag to the desired .pcd format.<br>
+Write python program to convert the processed pcd to .bin and .label files.<br>
+Write scripts to visualise point clouds based on open3d.<br>
+Write a python program to automatically align the timestamps of the bag and pose information, and filter out the frames needed for loopback detection.<br>
+You can contact me for the specific packet<br><br>
+8.3<br>
+Manual segmentation of a 50-frame radar point cloud<br><br>
