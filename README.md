@@ -188,6 +188,8 @@ Manually split 59 frames of radar point cloud<br><br>
 8.6<br>
 Check 90 frames of point cloud labelled by other team members and modify them.<br><br>
 Extract the coordinates and position of all point cloud frames. Code can be found below:<br>
+https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/readtime_final.py<br><br>
 Extract every pair of distances less than 2 and more than 30 for subsequent detection of the loopback detection algorithm. Code can be found below<br>
+https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/matchdata.py<br><br>
 8.7<br>
 End the BIT trip.<br><br>
