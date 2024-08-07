@@ -178,4 +178,16 @@ Write a python program to automatically align the timestamps of the bag and pose
 This py files can be found in https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week8/<br><br>
 You can contact me for the specific packet<br><br>
 8.3<br>
-Manual segmentation of a 50-frame radar point cloud<br><br>
+Manual segmentation of a 50-frame lidar point cloud<br><br>
+8.4<br>
+Manually split 58 frames of lidar point cloud<br><br>
+### Week 8     
+#### 8.5-8.11
+8.5<br>
+Manually split 59 frames of radar point cloud<br><br>
+8.6<br>
+Check 90 frames of point cloud labelled by other team members and modify them.<br><br>
+Extract the coordinates and position of all point cloud frames. Code can be found below:<br>
+Extract every pair of distances less than 2 and more than 30 for subsequent detection of the loopback detection algorithm. Code can be found below<br>
+8.7<br>
+End the BIT trip.<br><br>
