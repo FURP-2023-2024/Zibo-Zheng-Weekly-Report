@@ -194,3 +194,10 @@ https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20
 8.7<br>
 End the BIT trip.<br><br>
 Learn LOAM form blog:https://blog.csdn.net/gwplovekimi/article/details/119711762<br><br>
+8.8<br>
+Reusing the radar driver to acquire radar point cloud and imu data.<br><br>
+8.9-8.10<br>
+Use cartographer and a-loam to run online and offline slam builds respectively. The results are as follows:<br>
+Online cartographer: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/real-time%20cartographer.png)<br><br>
+Offline a-loam: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/offline%20aloam.png)<br><br>
+Online a-loam: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/online%20aloam.png)<br><br>
