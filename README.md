@@ -201,3 +201,4 @@ Use cartographer and a-loam to run online and offline slam builds respectively. 
 Online cartographer: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/real-time%20cartographer.png)<br><br>
 Offline a-loam: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/offline%20aloam.png)<br><br>
 Online a-loam: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/online%20aloam.png)<br><br>
+Online unilidarbag a-loam: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/offline%20aloam(unilidar).png)<br><br>
