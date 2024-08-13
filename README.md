@@ -188,9 +188,9 @@ Manually split 59 frames of radar point cloud<br><br>
 8.6<br>
 Check 90 frames of point cloud labelled by other team members and modify them.<br><br>
 Extract the coordinates and position of all point cloud frames. Code can be found below:<br>
-https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/readtime_final.py<br><br>
+https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week9%20file/readtime_final.py<br><br>
 Extract every pair of distances less than 2 and more than 30 for subsequent detection of the loopback detection algorithm. Code can be found below:<br>
-https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/matchdata.py<br><br>
+https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week9%20file/matchdata.py<br><br>
 8.7<br>
 End the BIT trip.<br><br>
 Learn LOAM form blog:https://blog.csdn.net/gwplovekimi/article/details/119711762<br><br>
@@ -198,10 +198,10 @@ Learn LOAM form blog:https://blog.csdn.net/gwplovekimi/article/details/119711762
 Reusing the radar driver to acquire radar point cloud and imu data.<br><br>
 8.9-8.10<br>
 Use cartographer and a-loam to run online and offline slam builds respectively. The results are as follows:<br>
-Online cartographer: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/real-time%20cartographer.png)<br><br>
-Offline a-loam: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/offline%20aloam.png)<br><br>
-Online a-loam: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/online%20aloam.png)<br><br>
-Online unilidarbag a-loam: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/offline%20aloam(unilidar).png)<br><br>
+Online cartographer: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week9%20file/real-time%20cartographer.png)<br><br>
+Offline a-loam: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week9%20file/offline%20aloam.png)<br><br>
+Online a-loam: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week9%20file/online%20aloam.png)<br><br>
+Online unilidarbag a-loam: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week9%20file/offline%20aloam(unilidar).png)<br><br>
 The reason for the failure of aloam could be that it did not receive the imu data and used the icp to estimate the position directly, or that aloam is not good enough to deal with the single-line radar in the first place.<br><br>
 8.11<br>
 I have tried the algorithm lio-sam which combines the imu data in the loam series, but the offline construction has not reported any error and has not been run, while the online construction has reported "large velocity" because the imu internal parameter has not been set correctly. lio-sam algorithm needs to be further improved and tried.<br><br>
