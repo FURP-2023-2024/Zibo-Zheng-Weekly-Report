@@ -202,3 +202,10 @@ Online cartographer: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Rep
 Offline a-loam: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/offline%20aloam.png)<br><br>
 Online a-loam: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/online%20aloam.png)<br><br>
 Online unilidarbag a-loam: ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week%209%20file/offline%20aloam(unilidar).png)<br><br>
+The reason for the failure of aloam could be that it did not receive the imu data and used the icp to estimate the position directly, or that aloam is not good enough to deal with the single-line radar in the first place.<br><br>
+8.11<br>
+I have tried the algorithm lio-sam which combines the imu data in the loam series, but the offline construction has not reported any error and has not been run, while the online construction has reported "large velocity" because the imu internal parameter has not been set correctly. lio-sam algorithm needs to be further improved and tried.<br><br>
+Read and understand the paper: SayNav: Grounding Large Language Models for Dynamic Planning to Navigation in New Environments and take notes.<br><br>
+8.12<br>
+Get the battery and start collecting lidar and imu packets to keep for debugging algorithms online.<br><br>
+Debug the parameters of the loopback detection code and run a test of the previously obtained data pairs.<br><br>
