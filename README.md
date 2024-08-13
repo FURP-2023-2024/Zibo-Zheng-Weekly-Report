@@ -206,12 +206,12 @@ The reason for the failure of aloam could be that it did not receive the imu dat
 8.11<br>
 I have tried the algorithm lio-sam which combines the imu data in the loam series, but the offline construction has not reported any error and has not been run, while the online construction has reported "large velocity" because the imu internal parameter has not been set correctly. lio-sam algorithm needs to be further improved and tried.<br><br>
 Read and understand the paper: SayNav: Grounding Large Language Models for Dynamic Planning to Navigation in New Environments and take notes.<br><br>
-### Week 9     
+### Week 10     
 #### 8.12-8.18
 8.12<br>
 Debug and retry lio-sam.<br>
 ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week10%20file/imu%20error.png)<br><br>
-![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week10%20file/imu%20error.png)<br><br>
+![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week10%20file/imu%20error2.png)<br><br>
 Read and understand the paper: IVLMap: Instance-Aware Visual Language Grounding for Consumer Robot Navigation <br><br>
 8.13<br>
 Get the battery and start collecting lidar and imu packets to keep for debugging algorithms online.<br>
