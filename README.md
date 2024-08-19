@@ -218,3 +218,9 @@ Get the battery and start collecting lidar and imu packets to keep for debugging
 ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week10%20file/理工楼.jpeg)<br><br>
 Debug the parameters of the loopback detection code and run a test of the previously obtained data pairs.<br>
 ![](https://github.com/FURP-2023-2024/Zibo-Zheng-Weekly-Report/blob/main/Week10%20file/loopback%20detection.jpeg)<br><br>
+8.14 Installing ubuntu 20.04<br><br>
+8.15 Configure linux network environment, configure flybook vscode and other environments, read cartographer paper and analysis, read dtof sensor principle and homemade dtof sensor plan.<br><br>
+8.16 compile dtof code, read dtof source code.<br><br>
+### Week 11     
+#### 8.19-8.25
+8.19 Read the dtof source code and the homemade sensor plan, and propose an algorithmic optimization scheme for time (ma/search peak). Carefully read the ivlmap paper.<br><br>
