@@ -232,5 +232,5 @@ Debug the parameters of the loopback detection code and run a test of the previo
 ### Week 12   
 #### 8.26-9.1
 8.26 Learning git branching commands: resolving conflicts between local and master, push to remote, and merge branches.<br><br>
-8.24-25 Finish capturing for scene graph 3 (BIT) <br><br>
+Finish capturing for scene graph 3 (BIT) <br><br>
 
