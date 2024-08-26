@@ -224,3 +224,13 @@ Debug the parameters of the loopback detection code and run a test of the previo
 ### Week 11     
 #### 8.19-8.25
 8.19 Read the dtof source code and the homemade sensor plan, and propose an algorithmic optimization scheme for time (ma/search peak). Carefully read the ivlmap paper.<br><br>
+8.20 Read the python code for the tof server's receive, process, and visualization boards to form a closed loop. Connect to host computer to run visualization<br><br>
+8.21 c++ adds a rotation mode and packages it with python input for depth map point cloud flip correction.<br><br>
+8.22 Add end save image and restart buttons and implement connection to save raw data as raw. After that read in raw and process function with window. Adjust the axis display direction to harmonize with the sensor axis of the sweeper. (The interface display is with pygraph and axes with axisitem)<br><br>
+8.23 Add three-point peak selection and center-of-mass peak selection modes.<br><br>
+8.24-25 Finish placing objects and capturing and for scene graph 2 (BIT) <br><br>
+### Week 12   
+#### 8.26-9.1
+8.26 Learning git branching commands: resolving conflicts between local and master, push to remote, and merge branches.<br><br>
+8.24-25 Finish capturing for scene graph 3 (BIT) <br><br>
+
