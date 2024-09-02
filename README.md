@@ -229,7 +229,7 @@ Debug the parameters of the loopback detection code and run a test of the previo
 8.22 Add end save image and restart buttons and implement connection to save raw data as raw. After that read in raw and process function with window. Adjust the axis display direction to harmonize with the sensor axis of the sweeper. (The interface display is with pygraph and axes with axisitem)<br><br>
 8.23 Add three-point peak selection and center-of-mass peak selection modes.<br><br>
 8.24-25 Finish placing objects and capturing and for scene graph 2 (BIT) <br><br>
-### Week 12   
+### Week 12   #BIT完成任务见周ppt
 #### 8.26-9.1
 8.26 Learning git branching commands: resolving conflicts between local and master, push to remote, and merge branches.<br><br>
 Finish capturing for scene graph 3 (BIT) <br><br>
