@@ -238,4 +238,4 @@ Finish capturing for scene graph 3 (BIT) <br><br>
 8.29-8.30 Optimize the processing speed of raw data: filter the point cloud processing on distant ground.<br><br>
 ### Week 13   
 #### 9.2-9.8
-9.2 Write python code for storing and clustering point clouds and then estimating the distances to the clusters we need (as a way to test the ranging accuracy of the tof sensor).
+9.2 Write python code for storing and clustering point clouds and then estimating the distances to the clusters we need (as a way to test the ranging accuracy of the tof sensor).<br><br>
