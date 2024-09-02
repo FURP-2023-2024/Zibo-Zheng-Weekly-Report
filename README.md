@@ -233,4 +233,9 @@ Debug the parameters of the loopback detection code and run a test of the previo
 #### 8.26-9.1
 8.26 Learning git branching commands: resolving conflicts between local and master, push to remote, and merge branches.<br><br>
 Finish capturing for scene graph 3 (BIT) <br><br>
-
+8.27 Improve the display of mouse click event information: both log and mouse side are displayed, and the second click will overwrite the first one.<br><br>
+8.28 Add visualization of point cloud pos for clicks.<br><br>
+8.29-8.30 Optimize the processing speed of raw data: filter the point cloud processing on distant ground.<br><br>
+### Week 13   
+#### 9.2-9.8
+9.2 Write python code for storing and clustering point clouds and then estimating the distances to the clusters we need (as a way to test the ranging accuracy of the tof sensor).
